@@ -67,7 +67,7 @@ App Store Connect の回答時のたたき台です。最終回答は、AdMob �
 - 写真ライブラリ追加: 撮影した動画の保存のために使用
 - 端末内保存: 撮影動画、設定、レビュー依頼や広告表示に関する軽量なカウンタ
 - 第三者SDK: Google AdMob / Google User Messaging Platform
-- Tracking: AdMob の広告設定と ATT 許可状況に応じて確認
+- Tracking: App Tracking Transparency に基づくトラッキング許可は求めない
 - Data Linked to You: アプリ独自では収集なし
 - Data Not Linked to You: 広告関連情報、使用状況データ、診断情報など AdMob SDK の実態に応じて確認
 - User Content: アプリ独自サーバーへ動画・音声を送信しないため、アプリ独自の収集対象としてはなし
