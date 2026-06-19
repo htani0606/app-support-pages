@@ -56,6 +56,53 @@
 広告表示には Google AdMob を使用しています。
 無料版では録画時間が5分までに制限されています。
 
+## App Review Reply - Face Data
+
+Hello,
+
+Thank you for reviewing 顔ぼかし動画カメラ. Below are the details about how the app handles face data.
+
+1. What face data does the app collect?
+
+The app does not collect face data. The app uses Apple's on-device Vision framework to detect face rectangles in the live camera frames only for the purpose of applying a blur effect. The temporary detection result is limited to face position/bounding-box information within the current video frame.
+
+The app does not collect, store, or upload face images, facial recognition templates, faceprints, biometric identifiers, or facial feature vectors.
+
+2. Planned uses of the face data
+
+The temporary on-device face position information is used only to determine where to apply the blur effect while recording video. It is not used for face recognition, user identification, authentication, profiling, analytics, advertising targeting, or any other purpose.
+
+3. Sharing and storage
+
+Face data is not shared with any third parties. Face detection and blur processing are performed on the user's device. The app does not send video, audio, face images, face position information, or face detection results to our servers or to third parties.
+
+The processed video, with the blur already applied, is saved only to the user's Photos library when the user chooses to record and save a video.
+
+4. Retention
+
+Face position information is used temporarily during live frame processing and is not retained after processing. The app does not store face data, face images, face templates, or face detection results.
+
+5. Privacy policy sections
+
+The face data handling is explained in the privacy policy under the following sections:
+
+- 「動画・音声の処理と保存場所」
+- 「顔データについて」
+- 「第三者提供」
+
+Privacy Policy URL:
+https://htani0606.github.io/app-support-pages/face-blur-video-camera/privacy.html
+
+6. Specific text from the privacy policy concerning face data
+
+「顔検出とぼかし処理は、原則としてユーザーの端末内で行われます。撮影した動画はユーザーの写真ライブラリに保存されます。アプリ独自のサーバーへ、撮影した動画、音声、顔情報を送信することはありません。」
+
+「本アプリは、顔をぼかすために端末内で顔の位置を検出します。検出される情報は、録画中の映像フレーム内における顔の位置情報のみで、本人確認、顔認証、個人の識別、プロフィール作成、分析、広告ターゲティングには使用しません。」
+
+「顔の位置情報は、ぼかし処理を行うために一時的に利用され、アプリ独自のサーバーや第三者へ送信されません。顔の位置情報、顔画像、顔認証テンプレート、顔の特徴量データをアプリ内に保存することはなく、録画処理中の一時利用後に保持されません。」
+
+「法令に基づく場合を除き、アプリ独自に取得した動画、音声、顔検出結果を第三者へ提供することはありません。ただし、広告配信に関する情報は Google AdMob SDK により Google に送信される場合があります。」
+
 ## App Privacy Draft
 
 App Store Connect の回答時のたたき台です。最終回答は、AdMob の設定と Apple の画面上の選択肢に合わせて確認してください。
