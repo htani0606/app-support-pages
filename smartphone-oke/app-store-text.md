@@ -61,13 +61,14 @@ App Store Connect の回答時のたたき台です。最終回答は AdMob の�
 
 - アプリ独自アカウント: なし
 - アプリ独自サーバーへのデータ送信: なし
-- 位置情報、カメラ、写真、連絡先、マイク、ヘルスケア: 使用なし
+- Screen Time の選択内容・通知文言・しきい値: 端末内のみで利用し、外部送信なし
 - 端末内保存: 監視対象、通知文言、しきい値、最終警告時刻
 - 第三者 SDK: Google AdMob
-- ATT: 現状未実装。クロスアプリ追跡を有効にする場合は別途対応が必要
-- Data Used to Track You: AdMob の配信設定に応じて最終確認
-- Data Linked to You: アプリ独自では収集なし
-- Data Not Linked to You: 広告関連情報、使用状況データ、診断情報など AdMob SDK の実態に応じて確認
+- ATT: 現状未実装。App Tracking Transparency を追加しない限り、IDFA の利用許可は求めない
+- Data Used to Track You: 識別子 > デバイスID（Google Mobile Ads SDK のPrivacy Manifestに従う）
+- Data Linked to You: 位置情報 > おおよその位置情報、使用状況データ > 広告データ・製品の操作、識別子 > デバイスID
+- Data Not Linked to You: 診断 > クラッシュデータ・パフォーマンスデータ・その他の診断データ
+- データの利用目的: 第三者広告、デベロッパによる広告またはマーケティング、分析（Google Mobile Ads SDK のPrivacy Manifestに従う）
 
 ## Export Compliance Draft
 
