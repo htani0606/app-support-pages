@@ -1,8 +1,8 @@
-# Cyber Abyss App Store 用テキスト
+# Cyber Abyss Tactics App Store 用テキスト
 
 ## App Information
 
-- App name: Cyber Abyss
+- App name: Cyber Abyss Tactics
 - Bundle ID: com.htani.cyberabyss
 - Support URL: https://htani0606.github.io/app-support-pages/cyber-abyss/support.html
 - Privacy Policy URL: https://htani0606.github.io/app-support-pages/cyber-abyss/privacy.html
@@ -21,7 +21,7 @@
 
 ## Description
 
-Cyber Abyss は、サイバー世界を舞台にした iPhone 向けカード対戦ゲームです。
+Cyber Abyss Tactics は、サイバー世界を舞台にした iPhone 向けカード対戦ゲームです。
 
 4つの文明からデッキを選び、CPUと1対1で対戦します。モンスターをチャージして起動し、正面の敵へサイバーレイド。即時スペルやチャージスペルを使い分け、盤面を崩して相手コアを削り切りましょう。
 
@@ -55,7 +55,7 @@ Choose Blue Steel, Crimson Eclipse, Green Beast, or White Armament and battle th
 
 ## English Description
 
-Cyber Abyss is an iPhone card battle game set in a cyber world.
+Cyber Abyss Tactics is an iPhone card battle game set in a cyber world.
 
 Choose one of four civilizations and play a one-on-one match against the CPU. Charge monsters, launch cyber raids into the opposing lane, and use instant and charged spells to break through the board and damage the enemy core.
 
@@ -73,7 +73,7 @@ Key features:
 - Cyber card frames and battlefield UI
 - Battle BGM
 
-Cyber Abyss is built for quick tactical card battles with readable board states and a sharp cyber atmosphere.
+Cyber Abyss Tactics is built for quick tactical card battles with readable board states and a sharp cyber atmosphere.
 
 ## English Keywords
 
@@ -81,7 +81,7 @@ card game,card battle,TCG,battle,cyber,deck,CPU,monster,spell,strategy,game
 
 ## What's New
 
-Cyber Abyss を公開しました。4文明のデッキで、チャージとサイバーレイドを軸にしたCPU対戦を楽しめます。
+Cyber Abyss Tactics を公開しました。4文明のデッキで、チャージとサイバーレイドを軸にしたCPU対戦を楽しめます。
 
 ## Review Notes
 
