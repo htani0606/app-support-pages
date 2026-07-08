@@ -1,8 +1,9 @@
-# 開発英単語 App Store 用テキスト
+# プログラミング英単語 App Store 用テキスト
 
 ## App Information
 
-- App name: 開発英単語
+- App name: プログラミング英単語
+- Home screen display name: 開発英単語
 - Bundle ID: com.htani.DevelopWords
 - Support URL: https://htani0606.github.io/app-support-pages/develop-words/support.html
 - Privacy Policy URL: https://htani0606.github.io/app-support-pages/develop-words/privacy.html
@@ -21,7 +22,7 @@ fetch、async、schema、rollback など、開発でよく出る英単語を意�
 
 ## Description
 
-開発英単語は、プログラミングやアプリ開発でよく見かける英単語を、初心者から中級者が確認しやすい形でまとめた iPhone アプリです。
+プログラミング英単語は、プログラミングやアプリ開発でよく見かける英単語を、初心者から中級者が確認しやすい形でまとめた iPhone アプリです。
 
 fetch、get、async、schema、compile、dependency、rollback など、コード、API、Git、UI、DB、設計、運用の文脈で出てくる単語を収録。単語ごとに読み方、短い意味、詳しい説明、ニュアンス、自然な使用例、関連語を確認できます。
 
@@ -45,7 +46,7 @@ fetch、get、async、schema、compile、dependency、rollback など、コー�
 
 ## What's New
 
-開発英単語を公開しました。プログラミングやアプリ開発でよく見かける英単語を、意味、例文、ニュアンスから確認できます。
+プログラミング英単語を公開しました。プログラミングやアプリ開発でよく見かける英単語を、意味、例文、ニュアンスから確認できます。
 
 ## Review Notes
 
