@@ -111,6 +111,35 @@ Google AdMob provides a banner on each screen and an interstitial after a comple
 
 The app uses MultipeerConnectivity for encrypted direct communication between nearby devices. It does not use a developer-operated game server.
 
+## Screenshot Caption Plan
+
+Prepare separate Japanese and English screenshots on the latest 6.9-inch iPhone display class. Recommended sequence:
+
+| # | Japanese caption | English caption | Screen |
+|---|---|---|---|
+| 1 | 3枚の数字で役を作ろう | Build patterns from three numbers | Main game board |
+| 2 | 1枚置くだけ、読み合いは深い | One card. Plenty of strategy. | Playable-slot preview |
+| 3 | ぞろ目・連番・はさみで得点 | Score Triples, Runs, and Sandwiches | Scoring effect |
+| 4 | CPUの一手をログで確認 | Follow every CPU move | CPU turn and battle log |
+| 5 | 近くのiPhoneと直接対戦 | Challenge a nearby iPhone | Nearby lobby |
+| 6 | 1台を交互に渡して2人対戦 | Pass one iPhone between two players | Home/local mode |
+
+Do not include live ads or the UMP consent form in App Store screenshots. Use a Release-like screenshot build with ads hidden only for screenshot capture, not in the submitted binary.
+
+## Manual App Store Connect Checklist
+
+- Create the iOS app record for bundle ID `com.htani.tonaricard` if it does not already exist.
+- Add Japanese and English (U.S.) localizations.
+- Enter the names exactly as `となりカード` and `Neighbor Numbers`.
+- Paste each locale's subtitle, promotional text, description, keywords, and What's New text above.
+- Set category to Games and secondary category to Puzzle.
+- Complete the age-rating questionnaire; the current content is expected to qualify for 4+.
+- Add the published Support URL and Privacy Policy URL.
+- Complete App Privacy using the draft below and Google's current SDK disclosures.
+- In AdMob Privacy & messaging, publish the EEA/UK consent message before submission.
+- Upload localized screenshots without test ads.
+- Select version `1.0`, build `1`, and choose manual or automatic release.
+
 ## App Privacy Draft
 
 Use this as a draft and confirm the exact choices shown in App Store Connect against the current Google Mobile Ads SDK privacy documentation.
