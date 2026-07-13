@@ -1,4 +1,4 @@
-# となりカード / Neighbor Numbers - App Store Metadata
+# となりカード / Neighbor Cards - App Store Metadata
 
 ## App Information
 
@@ -61,7 +61,7 @@
 
 ### Name
 
-Neighbor Numbers
+Neighbor Cards
 
 ### Subtitle
 
@@ -73,7 +73,7 @@ Play one card and shape the next move. Build patterns from three numbers in CPU,
 
 ### Description
 
-Neighbor Numbers is a quick competitive puzzle about replacing one card in a row of three and turning the numbers into scoring patterns.
+Neighbor Cards is a quick competitive puzzle about replacing one card in a row of three and turning the numbers into scoring patterns.
 
 Choose a number from your hand and play it into the left, center, or right slot. Complete a pattern to score. After scoring, your newly played card stays in the center, so every move becomes the starting point for the next player.
 
@@ -99,7 +99,7 @@ numbers,cards,puzzle,duel,strategy,brain,offline,local,multiplayer,sequence,boar
 
 ### What's New
 
-Welcome to Neighbor Numbers. Play against the CPU, share one iPhone, or challenge a nearby player.
+Welcome to Neighbor Cards. Play against the CPU, share one iPhone, or challenge a nearby player.
 
 ## App Review Notes
 
@@ -130,7 +130,7 @@ Do not include live ads or the UMP consent form in App Store screenshots. Use a 
 
 - Create the iOS app record for bundle ID `com.htani.tonaricard` if it does not already exist.
 - Add Japanese and English (U.S.) localizations.
-- Enter the names exactly as `となりカード` and `Neighbor Numbers`.
+- Enter the names exactly as `となりカード` and `Neighbor Cards`.
 - Paste each locale's subtitle, promotional text, description, keywords, and What's New text above.
 - Set category to Games and secondary category to Puzzle.
 - Complete the age-rating questionnaire; the current content is expected to qualify for 4+.
