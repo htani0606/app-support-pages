@@ -34,8 +34,11 @@
     <h2>データの書き出し</h2>
     <p>ユーザーは記録をCSVファイルとして準備し、iOSの共有シートを使って自ら選んだ保存先やアプリへ送ることができます。共有後のデータは、ユーザーが選択したサービスの規約とプライバシーポリシーに従って取り扱われます。</p>
 
-    <h2>広告、分析、追跡、第三者SDK</h2>
-    <p>BetWardは広告SDK、分析SDK、追跡SDKを使用しません。広告識別子を取得せず、アプリやウェブサイトを横断する追跡を行いません。ユーザーの記録を販売または第三者へ提供しません。</p>
+    <h2>広告、同意管理、第三者SDK</h2>
+    <p>BetWardは、履歴画面と分析画面に広告を表示するためGoogle Mobile Ads SDK（AdMob）を、地域に応じた広告プライバシー選択を提供するためGoogle User Messaging Platform（UMP）を使用します。広告を要求する前にUMPで同意状態を確認し、必要な場合は同意フォームを表示します。設定画面に「広告のプライバシー設定」が表示される場合、そこから選択を変更できます。</p>
+    <p>これらのGoogle SDKは、広告配信、広告効果測定、分析、不正防止、SDKの品質改善のため、IPアドレスから推定されるおおよその位置情報、端末識別子、表示・操作された広告に関する情報、アプリや広告との操作情報、クラッシュ情報、パフォーマンス情報、その他の診断情報をGoogleまたは広告配信事業者へ送信する場合があります。Google Mobile Ads SDKのプライバシーマニフェストでは、端末IDがトラッキングに使用される可能性があると宣言されています。</p>
+    <p>BetWardはApp Tracking Transparencyの許可ダイアログを独自には要求せず、Google Mobile Ads SDKのPublisher first-party IDも無効にしています。広告・同意に関する取り扱いは、端末設定、地域、ユーザーの選択、Googleの設定により異なる場合があります。詳しくは<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご確認ください。</p>
+    <p>ユーザーがBetWardへ入力したギャンブル記録、金額、きっかけ、メモ、目標、選択画像を広告SDKへ送信したり、広告ターゲティングへ使用したりすることはありません。開発者がこれらの記録を販売することもありません。</p>
 
     <h2>購入とサブスクリプション</h2>
     <p>BetWardにはアプリ内購入やサブスクリプションはありません。</p>
@@ -48,7 +51,7 @@
 
     <h2>変更</h2>
     <p>機能や要件の変更に応じて本ポリシーを更新することがあります。更新内容は本ページで公開します。</p>
-    <p>最終更新日: 2026年7月18日</p>
+    <p>最終更新日: 2026年7月18日（広告機能追加）</p>
 
     <hr>
     <h1 lang="en">BetWard Privacy Policy</h1>
@@ -71,8 +74,11 @@
       <h2>Data export</h2>
       <p>You can prepare a CSV export and use the iOS share sheet to send it to a destination you choose. After sharing, the selected service handles that data under its own terms and privacy policy.</p>
 
-      <h2>Advertising, analytics, tracking, and third-party SDKs</h2>
-      <p>BetWard does not use advertising, analytics, or tracking SDKs. It does not access an advertising identifier, track activity across apps or websites, sell your records, or provide them to third parties.</p>
+      <h2>Advertising, consent, and third-party SDKs</h2>
+      <p>BetWard uses the Google Mobile Ads SDK (AdMob) to show ads in History and Insights, and Google User Messaging Platform (UMP) to provide region-appropriate advertising privacy choices. The app checks UMP consent status before requesting ads and presents a consent form when required. If Ad privacy options appears in Settings, you can use it to change your choices.</p>
+      <p>For ad delivery, measurement, analytics, fraud prevention, and SDK quality, these Google SDKs may transmit approximate location inferred from an IP address, device identifiers, advertising data, product interactions, crash data, performance data, and other diagnostic data to Google or advertising providers. The Google Mobile Ads SDK privacy manifest declares that Device ID may be used for tracking.</p>
+      <p>BetWard does not independently request App Tracking Transparency authorization and disables the Google Mobile Ads SDK publisher first-party ID. Advertising and consent handling can vary by device settings, region, user choice, and Google's configuration. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> for details.</p>
+      <p>Your gambling records, amounts, triggers, notes, goals, and selected images are not sent to the advertising SDK or used for ad targeting. The developer does not sell these records.</p>
 
       <h2>Purchases and subscriptions</h2>
       <p>BetWard does not include in-app purchases or subscriptions.</p>
@@ -85,7 +91,7 @@
 
       <h2>Changes</h2>
       <p>This policy may be updated when the app or applicable requirements change. Updates will be published on this page.</p>
-      <p>Last updated: July 18, 2026</p>
+      <p>Last updated: July 18, 2026 (advertising feature added)</p>
     </div>
   </main>
 </body>
