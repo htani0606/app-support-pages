@@ -16,7 +16,8 @@
     <p>NAGIは、テキスト会話履歴、選択したAIモデル、ナギの短い状態情報、リマインダー設定をアプリの端末内領域へ保存します。これらを開発者が運営するサーバーへ送信することはありません。</p>
 
     <h2>AI機能とモデルのダウンロード</h2>
-    <p>MLX/Qwen2.5 7Bによる会話生成は端末内で行われます。初回にHugging Faceからモデルファイルをダウンロードします。この通信では通常のネットワーク情報がダウンロード提供者へ送信される場合がありますが、会話本文やカレンダー内容をHugging Faceへ送信する処理はありません。</p>
+    <p>MLX/Qwen2.5 7Bによる会話生成は端末内で行われます。NAGIは、入力内容、会話履歴、カレンダー情報、リマインダー、ナギの状態情報をHugging Faceその他の第三者AIサービスへ送信しません。</p>
+    <p>ユーザーがアプリ内で明示的にダウンロードを選んだ場合に限り、公開モデルファイルをHugging Faceから取得します。このダウンロード要求にユーザーの会話や予定は含まれません。IPアドレス、HTTPヘッダーなど通常の通信情報はダウンロード提供者により処理される場合があります。詳しくは<a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a>をご確認ください。</p>
 
     <h2>カレンダー</h2>
     <p>許可された場合、iOSのEventKitを通じてカレンダーの予定を表示、追加、編集、削除します。予定のタイトル、メモ、日時を開発者、広告SDK、AIモデルへ送信しません。NAGIで作成した予定は選択したシステムカレンダーへ保存され、アプリを削除した後も残る場合があります。</p>
@@ -48,14 +49,15 @@
 
     <hr>
     <h1 lang="en">NAGI Privacy Policy</h1>
-    <p lang="en">NAGI stores text conversation history, the selected AI backend, compact Nagi state, and reminder preferences locally on the device. These items are not sent to a developer-operated server.</p>
-    <p lang="en">MLX/Qwen2.5 7B inference runs on-device. Model files are downloaded from Hugging Face the first time. Normal network information may be processed by the download provider, but NAGI does not upload chat text or calendar content to Hugging Face.</p>
+    <p lang="en">NAGI stores text conversation history, local-model settings, compact Nagi state, and reminder preferences locally on the device. These items are not sent to a developer-operated server.</p>
+    <p lang="en">MLX/Qwen2.5 7B inference runs on-device. NAGI does not send prompts, chat history, calendar data, reminders, or Nagi state to Hugging Face or any other third-party AI service.</p>
+    <p lang="en">Only when the user explicitly chooses Download in the app, NAGI retrieves public model files from Hugging Face. The download request does not contain conversations or calendar data. Normal network information such as an IP address and HTTP headers may be processed by the download provider. See the <a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a>.</p>
     <p lang="en">With permission, NAGI uses EventKit to view and modify calendars configured in iOS and schedules local notifications for reminders. Calendar titles, notes, and dates are not sent to the developer, the advertising SDK, or AI models.</p>
     <p lang="en">NAGI uses Google AdMob for advertising and Google User Messaging Platform for consent. Depending on consent and configuration, Google may collect device identifiers, coarse location, advertising data, product interaction, crash, performance, and other diagnostic data for advertising, measurement, analytics, and fraud prevention. NAGI does not request AppTrackingTransparency permission or implement developer-operated tracking. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
     <p lang="en">Deleting the app removes chat history and app settings from its container. Downloaded models can be removed in Tools &gt; Settings. Calendar events are stored in the selected system calendar and may remain after uninstalling NAGI.</p>
     <p lang="en">Contact: <a href="mailto:tani@ymail.ne.jp">tani@ymail.ne.jp</a></p>
 
-    <p>最終更新日 / Last updated: 2026年9月23日</p>
+    <p>最終更新日 / Last updated: 2026年10月2日</p>
   </main>
 </body>
 </html>
